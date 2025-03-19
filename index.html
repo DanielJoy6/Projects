@@ -1,0 +1,94 @@
+<!--
+    Name: Daniel Joy
+    Major: Computer Science & Mathematics
+    Email: drjoy@cn.edu
+    School: carson-newman university
+-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="cybersecurity, carson-newman, daniel joy, carson newman, web programming">
+    <meta name="description" content="Web programming">
+    <meta name="author" content="Daniel Joy">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <style>
+        h1 {color:white;}
+        h2 {color:white;}
+        h3 {color:white;}
+        h4 {color:white;}
+        p {color:white;}
+        a {
+            color:lightblue;
+            z-index: 1;
+        }
+        ul {list-style: none;}
+            ul li::before { 
+            content: "\2022";
+            color: red;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            }
+        li {color:white}
+        small {color:white;}
+        button {
+            background-color: black;
+            color:white;
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 20px;
+            font-size:larger;
+            width: 200px;
+            z-index: 1;
+        }
+        div.box {
+        background-color: #000000;
+        width: 100%;
+        height: 550px;
+        position: relative;
+        overflow: hidden;
+        }
+        img {
+            position: absolute;
+            animation: X 5s linear 0s infinite alternate, Y 3s linear 0s infinite alternate;
+            z-index: 0;
+        }
+@keyframes X {
+  from { left: 0; } to { left: 1300px; }
+}
+
+@keyframes Y {
+  from {top:0; } to {top: 420px;}
+}
+</style>
+
+</head>
+
+<body style="background-color:black;">
+    <header>
+        <center><h1>Daniel Joy's Website</h1></center>
+    </header>
+
+    <div class="box">
+    <br><br>
+    <div style="text-align: center;">
+        <button><a style="color:red" href="/Classwork/index.html">Classwork</a></button>
+        <button><a style="color:orange" href="/Personal/index.html">About Me</a></button>
+        <button><a style="color:yellow" href="/Canvas/canvas.html">Art Canvas</a></button>
+        <br>
+        <button><a style="color:green" href="/Games/main.html">Games</a></button>
+        <button><a style="color:blue" href="/Binary/main.html">Binary to Decimal</a></button>
+        <button><a style="color:purple" href="/Forum/index.html">Forum</a></button>
+        <img src="dvd.png" width="100px" height="100px">
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+<hr>
+<p>Carson-Newman University (<a href="mailto:drjoy@cn.edu">drjoy@cn.edu</a>)</p>
+<p><a href="/Honors/index.html">Honors Project</a></p>
+</body>
+</html>
